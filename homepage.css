@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image:url(mat.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    color: antiquewhite;
+    text-align: center;
+}
+
+
+li {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    position: relative; 
+    float: right;
+    font-style: italic;
+    text- ;
+}
+
+a {
+    display: inline-block; 
+    padding: 8px;
+    text-decoration: none;
+    position: relative; 
+    color: white;
+    padding: 28px;
+    border-color: black;
+    border: 0cqw;
+
+}
+
+
+li a:hover::after {
+    content: ''; 
+    display: block; 
+    width: 8px; 
+    height: 8px; 
+    background-color: white;
+    position: absolute;
+    bottom: 0px; 
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    
+}
+#text1 {
+    text-align:center;
+    
+}
+
+p{
+    font-size: 38px;
+    font-weight: 100;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+#hello{
+    font-size: 30px;
+    margin-left: 400px;
+    margin-top: -20vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    margin-top: 5vh;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-left: 200px;
+    text-align: center;
+    text-transform: capitalize;
+    width: 100vh;
+    
+}
+#dev{
+    width: 100vh;
+}
+#ig{
+    width: 50px;
+    border-radius: 100px;
+    margin-top: 60px;
+    margin-left: -360px;
+}
+#lin{
+    width: 50px;
+    border-radius: 100px;
+    margin-top: 60px;
+    color: white;
+    margin-left: -280px;
+   
+}
+#x{
+    width: 50px;
+    border-radius: 100px;
+    margin-top: 60px;
+    color: white;
+    margin-left: -400px;
+}
+.download-btn {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    margin-top: 270px; 
+    margin-left: -480px;
+    border: 1px white solid;
+    width: 120px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+h1{
+    font-size:xx-large;
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+p{
+    font-size: xx-large;
+    text-align: center;
+}
+
+section{
+    text-align: center;
+}
+}
