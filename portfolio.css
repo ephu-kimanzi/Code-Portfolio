@@ -1,53 +1,51 @@
-body{
-    background-image:url(img33.jpg);
+body {
+    background-image: url(img33.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: aliceblue;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-li {
-        margin: 0px;
-        padding: 0px;
-        list-style-type: none;
-        position: relative; 
-        float: right;
-        font-style: italic;
-        color:aliceblue;
-}
-
-a{
-    display: inline-block; 
-    padding: 8px;
-    text-decoration: none;
-    position: relative; 
-    color: white;
-    padding: 28px;
-    image:
-}
-
-h1, h2, h3, h4{
+h1, h2, h3, h4 {
     text-decoration: underline;
-    font-size: ;
-
+    font-size: 24px; /* Default font size */
 }
 
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
+p {
+    margin: 10px 0;
 }
 
 .row::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
-button{ 
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    box-sizing: border-box; 
+}
+
+.column img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit:contain;
+    border-radius: 10px; /* Optional: to add rounded corners */
+}
+
+button {
     float: right;
     font-style: italic;
-    color:aliceblue;
+    color: aliceblue;
     background-color: black;
-
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px; /* Optional: to add rounded corners */
+    margin: 20px 0;
 }
